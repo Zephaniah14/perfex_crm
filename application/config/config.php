@@ -47,7 +47,7 @@ function db_prefix()
 */
 
 $config['base_url'] = APP_BASE_URL;
-
+die([$config['base_url'], APP_BASE_URL]);
 /*
 |--------------------------------------------------------------------------
 | Index File
