@@ -17,7 +17,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
 * environments.
 *
 */
-define('APP_BASE_URL', 'http://localhost/perfex_crm/');
+// define('APP_BASE_URL', 'http://localhost/perfex_crm/');
+define('APP_BASE_URL', 'https://getdinerotodaycrm.herokuapp.com/');
 
 /*
 * --------------------------------------------------------------------------
@@ -38,19 +39,24 @@ define('APP_ENC_KEY', 'f348485acab447bca7fc5ebce03c1f83');
  * Database Credentials
  * The hostname of your database server
  */
-define('APP_DB_HOSTNAME', 'localhost');
+ // mysql://b0fcba2f46bd9e:09e562a4@us-cdbr-east-02.cleardb.com/heroku_97cd44a4ee7c714?reconnect=true
+ define('APP_DB_HOSTNAME', 'us-cdbr-east-02.cleardb.com');
+// define('APP_DB_HOSTNAME', 'localhost');
 /**
  * The username used to connect to the database
  */
-define('APP_DB_USERNAME', 'root');
+ define('APP_DB_USERNAME', 'b0fcba2f46bd9e');
+// define('APP_DB_USERNAME', 'root');
 /**
  * The password used to connect to the database
  */
-define('APP_DB_PASSWORD', '');
+ define('APP_DB_PASSWORD', '09e562a4');
+// define('APP_DB_PASSWORD', '');
 /**
  * The name of the database you want to connect to
  */
-define('APP_DB_NAME', 'perfex_crm');
+ define('APP_DB_NAME', 'heroku_97cd44a4ee7c714');
+// define('APP_DB_NAME', 'perfex_crm');
 
 /**
  * @since  2.3.0
