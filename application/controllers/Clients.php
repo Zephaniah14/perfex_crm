@@ -20,15 +20,16 @@ class Clients extends ClientsController
 
     public function index()
     {
-        $data['is_home'] = true;
-        $this->load->model('reports_model');
-        $data['payments_years'] = $this->reports_model->get_distinct_customer_invoices_years();
-
-        $data['project_statuses'] = $this->projects_model->get_project_statuses();
-        $data['title']            = get_company_name(get_client_user_id());
-        $this->data($data);
-        $this->view('home');
-        $this->layout();
+        echo 'hello';
+        // $data['is_home'] = true;
+        // $this->load->model('reports_model');
+        // $data['payments_years'] = $this->reports_model->get_distinct_customer_invoices_years();
+        //
+        // $data['project_statuses'] = $this->projects_model->get_project_statuses();
+        // $data['title']            = get_company_name(get_client_user_id());
+        // $this->data($data);
+        // $this->view('home');
+        // $this->layout();
     }
 
     public function announcements()
