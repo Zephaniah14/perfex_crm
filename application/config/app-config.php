@@ -17,7 +17,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
 * environments.
 *
 */
-define('APP_BASE_URL', 'http://localhost/perfex_crm/');
+// define('APP_BASE_URL', 'http://localhost/perfex_crm/');
+define('APP_BASE_URL', 'https://getdinerotodaycrm.herokuapp.com/');
 
 /*
 * --------------------------------------------------------------------------
