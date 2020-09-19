@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ffc7555-0073-40e3-8975-b29f436a66e8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/perfex_crm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/perfex_crm.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/models/Authentication_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/Authentication_model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/authentication/login_admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/authentication/login_admin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/views/themes/perfex/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/themes/perfex/footer.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +110,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600536202451</updated>
-      <workItem from="1600536203504" duration="446000" />
+      <workItem from="1600536203504" duration="1320000" />
     </task>
     <servers />
   </component>
@@ -117,9 +118,13 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="614" y="159" width="604" height="735" key="find.popup" timestamp="1600536598484">
+    <state x="614" y="159" width="958" height="735" key="find.popup" timestamp="1600537556718">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state x="614" y="159" width="604" height="735" key="find.popup/0.23.1920.1177@0.23.1920.1177" timestamp="1600536598484" />
+    <state x="614" y="159" width="958" height="735" key="find.popup/0.23.1920.1177@0.23.1920.1177" timestamp="1600537556718" />
+    <state x="581" y="245" width="670" height="676" key="search.everywhere.popup" timestamp="1600536973864">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="581" y="245" width="670" height="676" key="search.everywhere.popup/0.23.1920.1177@0.23.1920.1177" timestamp="1600536973864" />
   </component>
 </project>

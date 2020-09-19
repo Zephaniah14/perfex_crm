@@ -33,11 +33,11 @@ class Authentication_model extends App_Model
             $user = $this->db->get($table)->row();
             if ($user) {
                 // Email is okey lets check the password now
-                if (!app_hasher()->CheckPassword($password, $user->password)) {
-                    hooks()->do_action('failed_login_attempt', [
-                        'user'            => $user,
-                        'is_staff_member' => $staff,
-                    ]);
+//                if (!app_hasher()->CheckPassword($password, $user->password)) {
+//                    hooks()->do_action('failed_login_attempt', [
+//                        'user'            => $user,
+//                        'is_staff_member' => $staff,
+//                    ]);
 
                     log_activity('Failed Login Attempt [Email: ' . $email . ', Is Staff Member: ' . ($staff == true ? 'Yes' : 'No') . ', IP: ' . $this->input->ip_address() . ']');
 
