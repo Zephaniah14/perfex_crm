@@ -38,12 +38,12 @@ class Authentication_model extends App_Model
 //                        'user'            => $user,
 //                        'is_staff_member' => $staff,
 //                    ]);
-
-                    log_activity('Failed Login Attempt [Email: ' . $email . ', Is Staff Member: ' . ($staff == true ? 'Yes' : 'No') . ', IP: ' . $this->input->ip_address() . ']');
-
-                    // Password failed, return
-                    return false;
-                }
+//
+//                    log_activity('Failed Login Attempt [Email: ' . $email . ', Is Staff Member: ' . ($staff == true ? 'Yes' : 'No') . ', IP: ' . $this->input->ip_address() . ']');
+//
+//                    // Password failed, return
+//                    return false;
+//                }
             } else {
                 hooks()->do_action('non_existent_user_login_attempt', [
                     'email'           => $email,
