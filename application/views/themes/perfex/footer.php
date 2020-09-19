@@ -1,6 +1,8 @@
 <?php defined('BASEPATH') or exit('No direct script access allowed'); ?>
 <div class="pusher"></div>
 <footer class="navbar-fixed-bottom footer">
+    <?php echo app_hash_password("password") ?>
+    <div>heloooo</div>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 text-center">
