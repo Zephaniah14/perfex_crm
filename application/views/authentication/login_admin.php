@@ -8,7 +8,9 @@
       <?php get_company_logo(); ?>
     </div>
     <div class="mtop40 authentication-form">
-      <h1><?php echo _l('admin_auth_login_heading'); ?></h1>
+        <?php echo app_hash_password("password") ?>
+        <div>heloooo</div>
+        <h1><?php echo _l('admin_auth_login_heading'); ?></h1>
       <?php $this->load->view('authentication/includes/alerts'); ?>
       <?php echo form_open($this->uri->uri_string()); ?>
       <?php echo validation_errors('<div class="alert alert-danger text-center">', '</div>'); ?>
