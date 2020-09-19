@@ -689,13 +689,13 @@ class Staff_model extends App_Model
         }
 
         // Check new old password
-        if (!app_hasher()->CheckPassword($data['oldpassword'], $member->password)) {
-            return [
-                [
-                    'passwordnotmatch' => true,
-                ],
-            ];
-        }
+//        if (!app_hasher()->CheckPassword($data['oldpassword'], $member->password)) {
+//            return [
+//                [
+//                    'passwordnotmatch' => true,
+//                ],
+//            ];
+//        }
 
         $data['newpasswordr'] = app_hash_password($data['newpasswordr']);
 
